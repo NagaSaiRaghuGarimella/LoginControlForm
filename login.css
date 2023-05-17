@@ -1,0 +1,79 @@
+body{background-image:url('pexels-pixabay-531321.jpg');
+  background-size: 100%;
+    }
+    i{
+    background-color:white;
+    border:1px solid;
+    padding:1px 1px 2px 3px;
+    border-right:0px;
+    }
+    .logemail input{
+    border-right:1px solid;
+    border-top:1px solid;
+    border-bottom:1px solid;
+    border-left:0px;
+    outline:0px;
+    text-align:center;
+    width:185px
+    }
+    .logpass input{
+        border-right:1px solid;
+        border-top:1px solid;
+        border-bottom:1px solid;
+        border-left:0px;
+        outline:0px;
+        text-align:center;
+        border-right: 0px;
+        }
+    .logemail{
+       display:flex;
+       padding:6px
+    }
+    .logpass{
+        display:flex;
+        padding:6px
+    }
+
+    #login{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    #sub{
+    width:45px;
+    height:17px;
+    }
+    label{
+    margin-left:20px;
+    font-weight:bold
+    }
+    .requirement-list li{
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    .requirement-list li i {
+        width: 20px;
+        color: #aaa;
+        font-size: 0.6rem;
+        border:0px
+      }
+      .requirement-list li.valid i {
+        font-size: 1.2rem;
+        color: green;
+      }
+      .requirement-list li span {
+        margin-left: 12px;
+        color: #333;
+      }
+      .requirement-list li.valid span {
+        color: #999;
+      }
+      .logpass .fa-eye{
+        border:1px solid black;
+        border-left:0px;
+      }
+      .logpass .fa-eye-slash{
+        border:1px solid black;
+        border-left:0px;
+      }

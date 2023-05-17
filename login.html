@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Document</title>
+  <link rel="stylesheet"href="login.css"></link>
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+ </head>
+ <body>
+ <form>
+<div id="login">
+<h3>Login to Big basket</h3>
+<div class="elements">
+ <div class="logemail">
+   <i class="fa fa-user"></i>
+   <input id="mail" type="text" placeholder="Emailid"></input>
+   <div id="emailError"></div>
+ </div>
+ <div class="logpass">
+   <i class="fa fa-lock"></i>
+   <input id="pass" placeholder="password" type="password"></input> 
+   <i class="fa-solid fa-eye"></i>
+   <div id="passError"></div>
+ </div>
+  <div id="error"></div>
+ </div>
+ <div class="content">
+  <p>Password must contains</p>
+  <ul class="requirement-list">
+    <li>
+      <i class="fa-solid fa-circle"></i>
+      <span>At least 8 characters length</span>
+    </li>
+    <li>
+      <i class="fa-solid fa-circle"></i>
+      <span>At least 1 number (0...9)</span>
+    </li>
+    <li>
+      <i class="fa-solid fa-circle"></i>
+      <span>At least 1 lowercase letter (a...z)</span>
+    </li>
+    <li>
+      <i class="fa-solid fa-circle"></i>
+      <span>At least 1 special symbol (!...$)</span>
+    </li>
+    <li>
+      <i class="fa-solid fa-circle"></i>
+      <span>At least 1 uppercase letter (A...Z)</span>
+    </li>
+  </ul>
+</div>
+<div>
+  <input id="sub" type="submit"value="login"></input>
+ </div>
+ <div>
+<label>New User?<a href="newuser.html">Click here</a></label>
+</div>
+</div>
+</form>
+<script src="login.js"></script>
+ </body>
+</html>
+
